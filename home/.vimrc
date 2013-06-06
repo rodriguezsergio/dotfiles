@@ -19,8 +19,8 @@ set title
 set encoding=utf-8
 
 " directories for swp files
-set backupdir=~/.vim/backup
-set directory=~/.vim/backupf
+"" set backupdir=~/.vim/backup
+"" set directory=~/.vim/backupf
 
 " display incomplete commands at the bottom
 set showcmd
@@ -66,7 +66,7 @@ set ttyfast
 set tabpagemax=100
 
 " case-insensitive filename completion
-set wildignorecase
+"" set wildignorecase
 
 """""""""""""
 " Searching "
