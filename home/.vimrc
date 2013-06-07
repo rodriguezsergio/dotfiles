@@ -68,6 +68,13 @@ set tabpagemax=100
 " case-insensitive filename completion
 "" set wildignorecase
 
+set history=1000
+set wildmenu
+set wildmode=list:longest,full
+set scrolloff=3
+set ruler
+set visualbell
+
 """""""""""""
 " Searching "
 """""""""""""
