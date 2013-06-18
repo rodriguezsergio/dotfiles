@@ -1,5 +1,7 @@
 #!/bin/bash
 
+PATH=$PATH:~/bin # For Sublime Text 2
+
 # Load aliases
 if [ -f ~/.aliases ]; then
 	. ~/.aliases
