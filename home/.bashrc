@@ -1,6 +1,7 @@
 #!/bin/bash
 
 PATH=$PATH:~/bin # For Sublime Text 2
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
 
 # Load aliases
 if [ -f ~/.aliases ]; then
