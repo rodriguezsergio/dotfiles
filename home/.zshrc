@@ -1,3 +1,22 @@
+export PATH="$HOME/bin:$PATH"
+
+# ansible
+export ANSIBLE_HOSTS=/etc/ansible/ec2.py
+export EC2_INI_PATH=/etc/ansible/ec2.ini
+
+# zsh
+export ZSH=$HOME/.oh-my-zsh
+ZSH_THEME="robbyrussell"
+plugins=(git)
+source $ZSH/oh-my-zsh.sh
+
+# virtualenv
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
+
+# rvm
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
 ###############
 # Completions #
 ###############
