@@ -7,8 +7,9 @@
 
 [alias]
 	#short command = long command
-	uncommit = reset --soft HEAD^
+	undo = reset --soft HEAD^
 	unstage = reset
+	stash-all = stash save --include-untracked
 
 [color]
 	ui = true
