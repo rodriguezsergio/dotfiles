@@ -4,13 +4,15 @@
 [github]
 	#user = ?
 	#token = ?
-
+[pager]
+        log = diff-highlight | less
+        show = diff-highlight | less
+        diff = diff-highlight | less
 [alias]
 	#short command = long command
 	undo = reset --soft HEAD^
 	unstage = reset
 	stash-all = stash save --include-untracked
-
 [color]
 	ui = true
 [core]
@@ -23,3 +25,5 @@
 	lineNumber = true
 [interactive]
 	singlekey = true
+[branch]
+	autosetuprebase = always
