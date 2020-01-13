@@ -138,3 +138,6 @@ au BufRead,BufNewFile *.html.erb set ft=eruby
 
 " Add json syntax highlighting
 au BufNewFile,BufRead *.json set ft=json syntax=javascript
+
+" YAML
+autocmd FileType yaml,yml setlocal ts=2 sts=2 sw=2 expandtab indentkeys-=0# indentkeys-=<:>
